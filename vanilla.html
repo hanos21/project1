@@ -9,14 +9,13 @@
   <script type="text/babel">
     const root = document.getElementById("root");
 
-    const Container = (
-      <div>
+    function Title() {
+      return (
         <h3 id="title" onMouseEnter={() => console.log("mouse enter")}>
           Hello I'm title
         </h3>
       );
-
-
+    }
     const Button = () => (
       <button
         style={{ backgroundColor: "tomato" }}
